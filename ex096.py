@@ -1,8 +1,8 @@
-def mostra_linha(a, b):
-    print('-'*40)
-    print(f'{f'{a} + {b} = {a+b}':^40}')
-    print('-' * 40)
+def area(comprimento, largura):
+    print(f'A área de um terreno de {comprimento} x {largura} é de {comprimento*largura} metros quadrados')
 
-a = int(input())
-b = int(input())
-mostra_linha(a, b)
+print('Controle de terrenos')
+print('-'*20)
+com = float(input('Comprimento(m): '))
+lar = float(input('Largura(m): '))
+area(com, lar)
